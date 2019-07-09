@@ -63,6 +63,7 @@
         android:weightSum="10"
         android:paddingLeft="12dp"
         android:paddingRight="12dp"
+        android:layout_marginBottom="16dp"
         >
 
         <ImageView
@@ -85,16 +86,29 @@
 
     </LinearLayout>
 
-    <Button
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:src="@drawable/btn_darkblue"
-        android:textColor="#ffffff"
-        android:text="Log in with Facebook"
-        android:drawableLeft="@drawable/face"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@drawable/btn_darkblue"
+        android:weightSum="10"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
         android:layout_marginBottom="16dp"
+        >
+\
 
-        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Log in with Facebook"
+            android:textColor="#ffffff"
+            android:gravity="center"
+
+            />
+    </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
