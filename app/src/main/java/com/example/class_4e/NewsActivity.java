@@ -22,7 +22,7 @@ public class NewsActivity extends AppCompatActivity {
         mLayoutManager = new LinearLayoutManager(this);
         mRecyclerView.setLayoutManager(mLayoutManager);
 
-        mAdapter = new MyA(myDataset);
+        mAdapter = new MyAdapter(myDataset);
         mRecyclerView.setAdapter(mAdapter);
 
     }
